@@ -1,12 +1,12 @@
 import threading
 import logging
 import wave
-import pyaudiowpatch as pyaudio
+import pyaudio
 
 logging.basicConfig(level=logging.INFO)
 
 # Configuration hardcoded to prevent Discord bot initialization
-LOOPBACK_DEVICE_ID = 13
+LOOPBACK_DEVICE_ID = 11
 FORMAT = pyaudio.paInt32
 CHUNK_SIZE = 1024
 WAVE_OUTPUT_FILENAME = "divine_voice.wav"
